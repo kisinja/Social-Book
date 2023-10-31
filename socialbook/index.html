@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook - Kisinja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b052718160.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="search icon">
+                <input type="text" name="" placeholder="Search" id="">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+
+        </div>
+
+        <!-------------- settings-menu ------------------>
+
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div> 
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div> 
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Acessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+        </div>
+
+
+    </nav>
+
+    <div class="container">
+        <!--------------left-sidebar ------------------>
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="news">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="news">Friends</a>
+                <a href="#"><img src="images/group.png" alt="news">Group</a>
+                <a href="#"><img src="images/marketplace.png" alt="news">Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="news">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Web Design course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+        </div>
+
+        <!--------------main-content ------------------>
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story2">
+                    <img src="images/member-1.png">
+                    <p>nairobi gossip</p>
+                </div>
+
+                <div class="story story3">
+                    <img src="images/member-2.png">
+                    <p>khalifkairo</p>
+                </div>
+
+                <div class="story story4">
+                    <img src="images/member-3.png">
+                    <p>carwow</p>
+                </div>
+
+                <div class="story story5">
+                    <img src="images/member-4.png">
+                    <p>fello.kenyan</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+
+                <div class="post-input-container">
+                    <textarea placeholder="What's on your mind, John?" rows="3"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png"> Live Video</a>
+                        <a href="#"><img src="images/photo.png"> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>October 22 2023, 12:25 am</span>
+                        </div>
+                    </div>
+
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                
+
+                <p class="post-text">Visit my site <span>@Mesodamnfly</span> to see more fits for each day specific, for both
+                    men and women. Don't Miss on the crazy DEALS!! <a href="#">#AutumnSale</a> <a href="#">#YouTubeChannel</a>
+                </p>
+
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-6.png">
+                        <div>
+                            <p>Eddie Butita</p>
+                            <span>October 22 2023, 12:56 am</span>
+                        </div>
+                    </div>
+
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                
+
+                <p class="post-text">Visit my site <span>@Butita</span> to see more fits for each day specific, for both
+                    men and women. Don't Miss on the crazy DEALS!! <a href="#">#AutumnSale</a> <a href="#">#YouTubeChannel</a>
+                </p>
+
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">5,989</div>
+                        <div><img src="images/comments.png">100</div>
+                        <div><img src="images/share.png">100</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/member-6.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-7.png">
+                            <div>
+                                <p>Nairobi Gossip</p>
+                                <span>October 22 2023, 01:02 am</span>
+                            </div>
+                        </div>
+    
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    
+    
+                    <p class="post-text">Man caught <span>@nairobigossip</span> stealing cows. Residents have sought the help of a witch-doctor who sent
+                        a swarm of bees to identify them.<a href="#">#AutumnSale</a> <a href="#">#YouTubeChannel</a>
+                    </p>
+    
+                    <img src="images/feed-image-3.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">1,343</div>
+                            <div><img src="images/comments.png">100</div>
+                            <div><img src="images/share.png">45</div>
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="images/member-7.png"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+    
+                    
+                </div>
+
+                <button type="button" class="load-more-btn">Load More</button>
+
+                
+            </div>
+
+
+        </div>
+
+
+
+        <!--------------right-sidebar ------------------>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>MultiMedia University Of Kenya</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>25</h3>
+                    <span>September</span>
+                </div>
+                <div class="right-event">
+                    <h4>Elvis's Birthday</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Kempinski Villa Rosa Chiromo Lane</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+
+            <img src="images/advertisement.png" alt="ad" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>Telusko</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p>Dennis Ivy</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>Pooja Dutt</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2023 - Kisinja Ent</p>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
